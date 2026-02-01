@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/style.css" />
+    <title>Валентинка <3</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aldrich&family=Pixelify+Sans:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Секретное письмо</title>
+  </head>
+  <body>
+    <!-- Envelope Screen -->
+    <div id="envelope-container">
+      <img src="src/envelope.png" alt="Envelope" id="envelope" draggable="false" />
+      <p>𖹭 Секретное письмо 𖹭</p>
+    </div>
+
+    <!-- Letter Screen -->
+    <div id="letter-container">
+      <div class="letter-window">
+        <h1 id="letter-title">Будешь моей валентинкой, Polly?</h1>
+
+        <img src="src/cat_heart.gif" class="cat" id="letter-cat" draggable="false" />
+        <p id="cat-comment" class="cat-comment"></p>
+
+        <div class="buttons" id="letter-buttons">
+          <img src="src/yes.png" class="btn yes-btn" alt="Yes" draggable="false" />
+
+          <div class="no-wrapper">
+            <img src="src/no.png" class="btn no-btn" alt="No" draggable="false" />
+          </div>
+        </div>
+
+        <p id="final-text" class="final-text" style="display: none">
+        <strong>Свиданочка:</strong> Ресторан TastyPlace в 19:00.<br /> Оденься fancy! (как всегда)
+        </p>
+      </div>
+    </div>
+    <script src="src/script.js"></script>
+  </body>
+</html>
